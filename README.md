@@ -1,6 +1,8 @@
-# Hellowello
 <img src="https://res.cloudinary.com/dgiguwrz1/image/upload/v1576932986/Hello_Wello.png" alt="HelloWello"
-	title="Hellowello Logo" width="50" height="50" />
+	title="Hellowello Logo" width="50" height="50" ALIGN="right"/>
+
+# Hellowello
+
 HelloWello is a simple django app
 
 For running it on your machine you need to do the following:
