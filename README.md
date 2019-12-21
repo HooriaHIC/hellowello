@@ -1,4 +1,5 @@
 # Hellowello
+
 HelloWello is a simple django app
 
 For running it on your machine you need to do the following:
