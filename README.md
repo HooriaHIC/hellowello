@@ -1,5 +1,5 @@
 # Hellowello
-![hellowello Logo](static/image/hello wello.png "HelloWello Logo")
+![hellowello Logo](https://res.cloudinary.com/dgiguwrz1/image/upload/v1576932986/Hello_Wello.png "HelloWello Logo")
 
 HelloWello is a simple django app
 
