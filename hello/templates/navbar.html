@@ -1,0 +1,16 @@
+<span onclick="openNav()" class="open-close">
+    <div></div>
+    <div></div>
+    <div></div>
+</span>
+<div id="myNav" class="overlay">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="overlay-content">
+        <a href="/">Home</a>
+        <a href="{% url 'blog' %}">Blog</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </div>
+
+</div>

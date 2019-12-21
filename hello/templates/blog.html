@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>
+    Latest Blog
+</h1>
+
+<div class="main">
+    <ul class="cards">
+        {% for post in posts %}
+        <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="{{post.image.url}}"></div>
+                <div class="card_content">
+                    <h2 class="card_title">{{post.name}}</h2>
+                    <p class="card_text">{{post.content|truncatechars:20}}</p>
+                    <button class="btn card_btn"><a href="{% url 'detail' pk=post.pk %}">Read More</a></button>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

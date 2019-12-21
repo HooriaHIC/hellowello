@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 style="margin-top: 130px;">Contact us</h2>
+<div class="main-2">
+
+    <form role="form" class="mb-5" action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn float-right mb-5">Submit</button>
+    </form>
+</div>
+{% endblock %}

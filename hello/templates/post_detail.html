@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="article">
+
+    <div class="article-img" style="background-image:url({{object.image.url}});">
+        {{object.name}}
+        <p>{{object.dateposted}}</p>
+    </div>
+    <div class="content" style="padding: 50px;">
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="float: right; margin: 10px;">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_email"></a>
+            <a class="a2a_button_pinterest"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+        <div class="text">
+            {{object.content|linebreaksbr}}
+        </div>
+    </div>
+
+</div>
+{% endblock %}
