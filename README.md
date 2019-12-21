@@ -1,4 +1,5 @@
 # Hellowello
+![hellowello Logo](static/image/hello wello.png "HelloWello Logo")
 
 HelloWello is a simple django app
 
